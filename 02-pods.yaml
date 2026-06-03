@@ -1,0 +1,9 @@
+appVersion : v1
+kind : pods
+metadata :
+ name : durga
+ namespace : roboshop
+spec :
+ containers :
+ - name : nginx
+   image : nginx 
